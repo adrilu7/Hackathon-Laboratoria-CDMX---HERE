@@ -8,7 +8,7 @@ const DriverHome = () => (
     <div>
     <Navbar brand='' right>
         <NavItem><Dropdown trigger={
-    <Button><Icon large>account_circle</Icon></Button>
+    <Button className="purple" ><Icon large>account_circle</Icon></Button>
   }>
   <NavItem>Reporte</NavItem>
   <NavItem>Escuela</NavItem>
@@ -20,7 +20,7 @@ const DriverHome = () => (
     <div className ="inputContainer">
      <Row>
         <Col>
-        <h5>Ruta Asignada </h5>
+        <h5>Ruta Asignada</h5>
         <select>
             <option value="Ruta 002 - Colegio Amado Nervo">Ruta 002 - Colegio Amado Nervo</option>
         </select>
@@ -55,8 +55,8 @@ const DriverHome = () => (
             <br></br>
     <Row>
         <Col s={12} m={12} l={12}>
-            <Button>Reportes</Button>
-            <Button><Link to="/driver-route">Iniciar Ruta</Link></Button>
+            <Button className="purple">Reportes</Button>
+            <Button className="purple"><Link to="/driver-route">Iniciar Ruta</Link></Button>
         </Col>
     </Row>
     </div>

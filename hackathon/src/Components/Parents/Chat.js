@@ -47,7 +47,7 @@ class Chat extends Component {
     <SideNavItem> <ChatMessages/> </SideNavItem>
         <div className="input center"> 
             <Input onChange={this.handleOnChange} placeholder="Tu mensaje" name="message"></Input>
-            <Button onClick={this.handleOnSubmit}>submit</Button>
+            <Button className="purple" onClick={this.handleOnSubmit}>submit</Button>
        </div>
   </SideNav>
   </div>

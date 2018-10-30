@@ -24,8 +24,8 @@ const DashboardTabs = () => (
     <Row>
         <Col s={12} m={12} l={12}>
     <Tabs className='tab-demo z-depth-1'>
-    <Tab title="Registrar Chofer"><Form /></Tab>
-    <Tab title="Choferes" active><SchoolTable /></Tab>
+    <Tab title="Registrar Conductores"><Form /></Tab>
+    <Tab title="Conductores" active><SchoolTable /></Tab>
 </Tabs>
 </Col>
 </Row>
