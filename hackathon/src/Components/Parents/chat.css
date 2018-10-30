@@ -17,3 +17,12 @@
     margin-left: 2%;
     font-weight: 600;
 }
+
+.divalert {
+    height:120px; 
+    width: 240px; 
+    background-color: black; 
+    color: white;
+    padding-top: 4%;
+}
+
