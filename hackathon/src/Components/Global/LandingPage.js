@@ -19,19 +19,19 @@ const landingPage = () => (
         </div>
         <section className="info">
         <Row>
-            <Col m={3} s={6}>
+            <Col m={3} s={12}>
                 <Card className='black' textClassName='white-text' title='Confianza'>
                 Lorem ipsum dolor sit amet, 
                 et sed quod                
                  </Card>
             </Col>
-            <Col m={3} s={6}>
+            <Col m={3} s={12}>
                 <Card className='black' textClassName='white-text' title='Confianza'>
                 Lorem ipsum dolor sit amet, 
                 et sed quod
                  </Card>
             </Col>
-            <Col m={3} s={6}>
+            <Col m={3} s={12}>
                 <Card className='black' textClassName='white-text' title='Confianza'>
                 Lorem ipsum dolor sit amet, 
                 et sed quod

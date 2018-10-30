@@ -10,3 +10,22 @@
 p {
   margin-top: -5%;
 }
+
+@media screen and (max-width: 800px) {
+  div.inputContainer {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  div.inputContainer {
+    width: 50%
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .btn.show-on-large {
+    margin-left: -80%;
+    margin-top: 145%;
+    position:relative;
+  }
+}
