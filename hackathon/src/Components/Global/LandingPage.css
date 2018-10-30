@@ -7,7 +7,7 @@
 
 
 .slogan {
-    padding-top: 5%;
+    padding-top: 3%;
     position: relative;
     z-index: 2;
     color: white;
@@ -43,4 +43,10 @@ h5 {
 
 .card h5{
     color: darkviolet;  
+}
+
+.logo {
+    width: 80px; /* you can use % */
+    height: auto;
+    position: flex;
 }
