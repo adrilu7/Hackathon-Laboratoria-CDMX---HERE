@@ -34,20 +34,20 @@ class loginInput extends Component {
             <div className="inputContainer s12">
 
                 <form>
-                    Escuela
+                <h5>Escuela</h5>
                     <Row className="white-background"> 
                         <Col s={12} m={12} l={12}>
-                        <Input value={this.state.email} onChange={this.handleOnChange} className='inputHover' s={10}  m={10} l={10} label="Email" name='email' type='email' validate></Input>
+                        <Input value={this.state.email} onChange={this.handleOnChange} className='inputHover' s={10}  m={10} l={10} label="Correo" name='email' type='email' validate></Input>
                         </Col>
                     </Row>
                     <Row className="white-background">
                     <Col s={12} m={12} l={12}>
-                        <Input value={this.state.password} onChange={this.handleOnChange} className='inputHover' s={10}  m={10} l={10} label="Password" validate name='password' type='password'></Input>
+                        <Input value={this.state.password} onChange={this.handleOnChange} className='inputHover' s={10}  m={10} l={10} label="Contraseña" validate name='password' type='password'></Input>
                     </Col>
                     </Row >
                     <Row className="white-background">
                     <Col s={12} m={12} l={12} className='center'>
-                        <Button type='submit' onClick={this.login} s={10}  m={10} l={10} waves='light' className='signInButton'>Conectate</Button>
+                        <Button type='submit' onClick={this.login} s={10}  m={10} l={10} waves='light' className='signInButton purple'>Conectate</Button>
                         </Col>
                     </Row>
                 </form>

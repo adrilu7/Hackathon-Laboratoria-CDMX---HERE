@@ -8,7 +8,7 @@ const parentsHome = () => (
     <div>
     <Navbar brand='' right>
         <NavItem><Dropdown trigger={
-    <Button><Icon large>account_circle</Icon></Button>
+    <Button className="purple"><Icon large>account_circle</Icon></Button>
   }>
   <NavItem>Reporte</NavItem>
   <NavItem>Escuela</NavItem>

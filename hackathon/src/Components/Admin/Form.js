@@ -40,20 +40,21 @@ class Form extends Component {
         return(
     <div>
         <Row>
-            <Input placeholder="Placeholder" s={6} label="First Name" />
-            <Input s={6} label="Last Name" />
-            <Input s={12} label="disabled" defaultValue="I am not editable" disabled />
-            <Input type="password" label="password" s={12} />
-            <Input type="email" label="Email" s={12} />
+            <Col s={12} m={12} l={12}>
+                <Input className='inputHover' s={10}  m={10} l={10} label="Matrícula" name="code" type="text"/>
+                <Input className='inputHover' s={10}  m={10} l={10} label="Nombre" name="name" type="text"/>
+                <Input className='inputHover' s={10}  m={10} l={10} label="Dirección" name="address" type="text"/>
+                <Input className='inputHover' s={10}  m={10} l={10} label="Teléfono" name="telephone"type="text"/>
+            </Col>
         </Row>
         <Row>
         <Modal
-            header='Registra Nuevo Usuario Escuela'
-            trigger={<Button>Registrar</Button>}>
+            header='Registra Nuevo Usuario'
+            trigger={<Button className="purple">Registrar</Button>}>
                     <Col>
-                        <Input type="email" label="email" name="email" value={this.state.email} onChange={this.handleOnChange}/>
-                        <Input type="password" label="password" name="password" value={this.state.password} onChange={this.handleOnChange}/>
-                        <Button onClick={this.handleRegister}>Confirmar</Button>
+                        <Input type="email" label="Correo" name="email" value={this.state.email} onChange={this.handleOnChange}/>
+                        <Input type="password" label="Contraseña" name="password" value={this.state.password} onChange={this.handleOnChange}/>
+                        <Button className="purple" onClick={this.handleRegister}>Confirmar</Button>
                     </Col>
         </Modal>
         </Row>

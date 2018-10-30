@@ -28,7 +28,7 @@ h5 {
 
 .card {
     width: 220px;
-    height: 250px;    
+    height: 250px;  
 }
 
 .nav-links,
@@ -39,4 +39,8 @@ h5 {
     position: relative;
     z-index: 4;
     margin-right: 2%;
+}
+
+.card h5{
+    color: darkviolet;  
 }
