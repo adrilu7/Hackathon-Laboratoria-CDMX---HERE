@@ -4,6 +4,7 @@ import firebase from 'firebase';
 import {Link} from 'react-router-dom';
 import Map from '../Map/Map';
 import Chat from '../Parents/Chat';
+import '../Parents/chat.css';
 
 const startRoute = () => (
     <div>
@@ -25,6 +26,10 @@ const startRoute = () => (
     <p><Icon tiny className="actual">brightness_1</Icon> Alumnos Actuales: 0 </p>
     <p><Icon tiny className="pending">brightness_1</Icon> Alumnos Pendientes: 10 </p>
     <Map />
+    <div className="divalert">
+        <p>Has llegado a tu destino</p>
+        <Button className="purple">Cerrar</Button>
+    </div>
     </div>
     </div>
 )
