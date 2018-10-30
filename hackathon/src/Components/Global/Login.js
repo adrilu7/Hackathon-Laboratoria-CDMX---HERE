@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Row, Input, Button, Col} from 'react-materialize';
+import {Link} from 'react-router-dom';
 import Firebase from '../../config';
 import './Login.css';
 
@@ -50,6 +51,7 @@ class loginInput extends Component {
                         <Button type='submit' onClick={this.login} s={10}  m={10} l={10} waves='light' className='signInButton'>Conectate</Button>
                         </Col>
                     </Row>
+                    <h6><Link to="/register">Regístrate</Link></h6>
                 </form>
             </div>
             </div>

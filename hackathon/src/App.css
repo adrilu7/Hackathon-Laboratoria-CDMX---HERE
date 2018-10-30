@@ -21,11 +21,3 @@ p {
     width: 50%
   }
 }
-
-@media screen and (max-width: 750px) {
-  .btn.show-on-large {
-    margin-left: -80%;
-    margin-top: 145%;
-    position:relative;
-  }
-}

@@ -8,6 +8,7 @@ import Map from '../Map/Map';
 const startRoute = () => (
     <div>
     <Navbar brand='' right>
+        <NavItem><Chat /></NavItem>
         <NavItem><Dropdown trigger={
     <Button><Icon large>account_circle</Icon></Button>
   }>
@@ -23,7 +24,6 @@ const startRoute = () => (
     <p>Próximo Destino: Dresde 4-1, Juarez</p>
     <Map />
     </div>
-    <Chat />
     </div>
     
 )

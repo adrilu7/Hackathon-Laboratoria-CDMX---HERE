@@ -12,7 +12,14 @@ import DashboardADM from './Components/Admin/Dashboard';
 import DriverRoute from './Components/Drivers/StartRoute';
 import ParentRoute from './Components/Parents/ParentRoute';
 import DashboardSchool from './Components/Institutions/Dashboard';
+import Register from './Components/Parents/Register';
 
+        const register = () => (
+            <div>
+                <Register />
+            </div>
+
+        )
         const loginParent = () => (
             <div>
                 <LoginParent />
@@ -100,9 +107,7 @@ const Routes = () => (
                 <Route exact strict path="/driver-route" component = {driverRoute} />
                 <Route exact strict path="/parent-route" component = {parentRoute} />
                 <Route exact strict path="/dashboard-school" component = {dashboardSchool} />
-
-
-
+                <Route exact strict path="/register" component = {register} />
             </Switch>
     </Router>   
 );
