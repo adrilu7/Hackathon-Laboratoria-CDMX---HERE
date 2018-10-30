@@ -27,7 +27,7 @@ const DriverHome = () => (
         </Col>
     </Row>
             <Col>
-                <h5 class="header">Laura Soberanes Silva</h5>
+                <h6 class="header">Laura Soberanes Silva</h6>
                     <ul class="tabs tabs-fixed-width">
                         <li class="tab"><a class="active" href="#test4">Pendiente</a></li>
                         <li class="tab"><a href="#test5">Recogido</a></li>
@@ -36,7 +36,7 @@ const DriverHome = () => (
             </Col>
             <br></br>
             <Col>
-                <h5 class="header">Pablo Rivera Olveira</h5>
+                <h6 class="header">Pablo Rivera Olveira</h6>
                     <ul class="tabs tabs-fixed-width">
                         <li class="tab"><a class="active" href="#test4">Pendiente</a></li>
                         <li class="tab"><a href="#test5">Recogido</a></li>
@@ -45,7 +45,7 @@ const DriverHome = () => (
             </Col>
             <br></br>
             <Col>
-                <h5 class="header">Karla Acosta Ramirez</h5>
+                <h6 class="header">Karla Acosta Ramirez</h6>
                     <ul class="tabs tabs-fixed-width">
                         <li class="tab"><a class="active" href="#test4">Pendiente</a></li>
                         <li class="tab"><a href="#test5">Recogido</a></li>

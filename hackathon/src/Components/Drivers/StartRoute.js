@@ -8,6 +8,7 @@ import Chat from '../Parents/Chat';
 const startRoute = () => (
     <div>
     <Navbar brand='' right>
+        <NavItem><Chat /></NavItem>
         <NavItem><Dropdown trigger={
     <Button><Icon large>account_circle</Icon></Button>
   }>
@@ -25,7 +26,6 @@ const startRoute = () => (
     <p><Icon tiny className="pending">brightness_1</Icon> Alumnos Pendientes: 10 </p>
     <Map />
     </div>
-    <Chat />
     </div>
 )
 

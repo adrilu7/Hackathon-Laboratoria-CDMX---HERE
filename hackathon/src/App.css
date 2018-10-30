@@ -14,3 +14,13 @@ p {
 .btn {
   background-color: darkviolet;
 }
+@media screen and (max-width: 800px) {
+  div.inputContainer {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  div.inputContainer {
+    width: 50%
+  }
+}

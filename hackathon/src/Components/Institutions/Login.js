@@ -31,7 +31,7 @@ class loginInput extends Component {
     render() {
         return (
             <div className="background">
-            <div className='inputContainer'>
+            <div className="inputContainer s12">
 
                 <form>
                 <h5>Escuela</h5>
