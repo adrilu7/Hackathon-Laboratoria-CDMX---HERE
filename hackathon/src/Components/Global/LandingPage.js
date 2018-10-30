@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {Card, Row, Col} from 'react-materialize';
 import './LandingPage.css';
+import Logo from '../../assets/logo4.png';
 
 const landingPage = () => (
     <div>
@@ -14,6 +15,7 @@ const landingPage = () => (
         <div className="banner">
         <section className="slogan">
             <h1>Sigue Bus</h1>
+            <img className="logo responsive-img" src={Logo} alt ="Logotipo"/>
             <h5>Cuidamos de tus hijos, cuidamos de todos.</h5>
         </section>
         </div>
